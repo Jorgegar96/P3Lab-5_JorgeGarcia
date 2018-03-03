@@ -33,6 +33,7 @@ class Zoologico{
 		void addTropical(Animal);
 		void addSabana(Animal);
 		void listarTodo();
+		void ordenarAlfabeticamente();
 		~Zoologico();
 };
 

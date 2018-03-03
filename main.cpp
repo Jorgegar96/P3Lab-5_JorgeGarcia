@@ -89,7 +89,9 @@ int main(){
 					int indice;
 					cin>>indice;
 					indice --;
-					lista_espera.erase(lista_espera.begin()+indice);
+					if (indice < lista_espera.size() || indice < 0){
+						lista_espera.erase(lista_espera.begin()+indice);
+					}
 				}else{
 					cout<<"La lista esta vacia."<<endl;
 				}
